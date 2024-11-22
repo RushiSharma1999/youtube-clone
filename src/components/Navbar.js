@@ -5,7 +5,7 @@ import {AiOutlineSearch} from "react-icons/ai";
 import {FaMicrophone} from "react-icons/fa";
 import {RiVideoAddLine} from "react-icons/ri";
 
-function Navbar(props) {
+function Navbar() {
     return (
         <div className="flex items-center justify-between px-14 h-14 bg-[#212121] opacity-95 sticky">
             <div className="flex gap-8 items-center text-2xl">

@@ -8,7 +8,7 @@ import {
     MdOutlineWatchLater, MdOutlineThumbUp,
 } from "react-icons/md";
 
-function Sidebar(props) {
+function Sidebar() {
     const mainLinks = [
         {icon: <MdHomeFilled className={'text-xl'}/>, name: "Home"},
         {icon: <MdOutlineSlowMotionVideo className={'text-xl'}/>, name: "Shorts"},
